@@ -1,0 +1,53 @@
+##OpenGL GLIB
+# Name: Selma Leathem
+# Date: 2/2/2021
+# Description: The GLIB file for project 4: Cube Mapping
+#
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+# Cubemap images from: https://hdrihaven.com/ and
+# https://matheowis.github.io/HDRI-to-CubeMap/
+
+CubeMap 6 px.bmp nx.bmp py.bmp ny.bmp pz.bmp nz.bmp
+
+CubeMap 7 px.bmp nx.bmp py.bmp ny.bmp pz.bmp nz.bmp
+
+Vertex		pleatscube.vert
+Fragment	pleatscube.frag
+Program    PleatsCube				        \
+           uReflectUnit 6             		\
+           uRefractUnit 7             		\
+			uK <0. 0. 0.2>					\
+			uP <0.1 0.6 1.0>				\
+			uNoiseAmp <0. 0. 6.>			\
+            uNoiseFreq <0.1 1. 20.>			\
+            uEta <1. 1.2 4.0>               \
+            uMix <0. 1.0 1.0>                						
+
+QuadXY  -0.2  1.  100  100
+
+Vertex texture.vert
+Fragment texture.frag
+Program Texture  TexUnit 6
+
+Texture2D  6  px.bmp
+QuadYZ 5. 5. 10 10
+
+Texture2D  6  nx.bmp
+QuadYZ -5. 5. 10
+
+Texture2D  6  py.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  ny.bmp
+QuadXZ -5. 5. 10 10
+
+Texture2D  6  pz.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  nz.bmp
+QuadXY -5. 5. 10 10
+
+

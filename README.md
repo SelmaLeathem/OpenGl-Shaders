@@ -30,3 +30,11 @@ A striped balloon obj file is imported and manipulated in the vertex and fragmen
 
 1. In the vertex shader the balloon can be stretched and distorted.
 1. In the fragment shader a spiral design on the front of the balloon shrinks, grows, distorts and changes color.
+
+## Bump and Cube Mapping, Refraction and Reflection Using Shaders
+
+To view a video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
+
+1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
+1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+

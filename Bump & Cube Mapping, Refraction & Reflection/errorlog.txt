@@ -1,0 +1,8 @@
+
+0(28) : error C1503: undefined variable "Y0"
+0(28) : error C1503: undefined variable "PI"
+0(34) : error C1503: undefined variable "Y0"
+0(34) : error C1503: undefined variable "PI"
+0(34) : error C1503: undefined variable "PI"
+0(37) : error C1503: undefined variable "PI"
+
