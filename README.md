@@ -38,3 +38,9 @@ To view a video of the project, see: https://media.oregonstate.edu/media/t/1_zh6
 1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
 1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
 
+## The Attic
+
+To view a video of the project, see: HTTPS://MEDIA.OREGONSTATE.EDU/MEDIA/T/1_II83UAD8
+
+An introductory project where different types of light sources and textures on imported objects using OpenGL was implemented.
+
