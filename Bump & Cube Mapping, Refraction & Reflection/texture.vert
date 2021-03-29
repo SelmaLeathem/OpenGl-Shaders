@@ -1,7 +1,6 @@
 #version 330 compatibility
 
 /* 
- * Name: Selma Leathem
  * Date: 2/2/21
  * Description: Transforms vertex coordinates of six quadrilaterals and passes through
  *              to the fragment shader via the rasterizer texture st coordinates.

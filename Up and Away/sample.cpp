@@ -1,5 +1,4 @@
 /*
-* Name:        Selma Leathem
 * Description: Added the ability to model an animated hot air balloon using shaders. The balloon is
 *              imported from an object file and is passed along to the vertex shader where the
 *              ballon vertices change sinusoidally. The fragment shader implements a changing spiral
@@ -65,7 +64,7 @@
 
 // title of these windows:
 
-const char *WINDOWTITLE = { "OpenGL / Project 5 -- Selma Leathem" };
+const char *WINDOWTITLE = { "Up and Away" };
 const char *GLUITITLE   = { "User Interface Window" };
 
 // what the glui package defines as true and false:

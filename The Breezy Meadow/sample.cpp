@@ -1,5 +1,4 @@
 /*
-* Name:        Selma Leathem
 * Description: Added the implementation of a meadow consisting of:
 *              - A tree, where the leaves shimmer in the wind
 *              - Three species of flowers that move in the wind
@@ -69,7 +68,7 @@
 
 // title of these windows:
 
-const char *WINDOWTITLE = { "The Breezy Meadow by Selma Leathem" };
+const char *WINDOWTITLE = { "The Breezy Meadow" };
 const char *GLUITITLE   = { "User Interface Window" };
 
 // what the glui package defines as true and false:

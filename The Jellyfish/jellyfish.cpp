@@ -1,5 +1,4 @@
 /*
-* Name:    Selma Leathem
 *
 * Description: Instantiation returns a jellyfish constructed from Bezier curves. Key functions include:
 * 

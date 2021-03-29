@@ -1,6 +1,5 @@
 /* Utility for constructing curves and points for use Bezier curves 
  *
- *     Name: Selma Leathem
  *
  *     Description:
  *         struct Point - holds a point in cartesian geometry

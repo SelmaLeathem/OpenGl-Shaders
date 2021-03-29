@@ -1,7 +1,6 @@
 #version 330 compatibility
 
 /* 
- * Name: Selma Leathem
  * Date: 2/2/21
  * Description: Prints a texture on a quadrilateral surface.
 */

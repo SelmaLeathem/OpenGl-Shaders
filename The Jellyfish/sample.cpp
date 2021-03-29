@@ -1,5 +1,4 @@
 /*
-* Name:        Selma Leathem
 *
 * Description: Added a model of an animated 3d jelly fish using Bezier curves.To freeze 
 *              animation use the keyboard "f" key. The right-click menu can turn the curves or points
@@ -58,7 +57,7 @@ using std::vector;
 
 // title of these windows:
 
-const char *WINDOWTITLE = { "Jellyfish -- Selma Leathem" };
+const char *WINDOWTITLE = { "The Jellyfish" };
 const char *GLUITITLE   = { "User Interface Window" };
 
 // what the glui package defines as true and false:

@@ -1,5 +1,4 @@
 /*****************************************************************
-* Name:        Selma Leathem
 * Date:        10/2/202
 * Description: Struct definition for a Vertex type which describes
 *              a vertex with three cartesian coordinates.

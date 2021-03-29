@@ -1,5 +1,4 @@
 /*
-*  Name:        Selma Leathem
 *  Date:        10/22/2020
 *  Description: Added stationary and moving light sources along with several objects.
 *               Lighting can be switched on/off using keyboard keys:
@@ -65,7 +64,7 @@ struct VertexG {
 	GLfloat z;
 };
 
-const char *WINDOWTITLE = { "OpenGL / GLUT Sample -- Joe Graphics" };
+const char *WINDOWTITLE = { "OpenGL / GLUT Sample -- In the Attic" };
 const char *GLUITITLE   = { "User Interface Window" };
 
 // what the glui package defines as true and false:

@@ -1,5 +1,4 @@
 /************************************************************************
-* Name:        Selma Leathem
 * Date:        10/2/2020
 * Description: Sphere class implemenation. The sphere class is able to return
 *              the vertices and normals of points on a sphere as one-dimensional

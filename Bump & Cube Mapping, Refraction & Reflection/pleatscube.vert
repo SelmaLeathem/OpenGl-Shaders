@@ -1,7 +1,6 @@
 #version 330 compatibility
 
 /* 
- * Name: Selma Leathem
  * Date: 2/2/2021
  * Description: Calculates and passes gl_Position through the pipeline and passes vertex
  *              coordinates to the fragment shader in addition to values needed for per

@@ -1,7 +1,6 @@
 #version 330 compatibility
 
 /* 
- * Name: Selma Leathem
  * Date: 2/2/2021
  * Description: Implements bump mapping using random noise to create creases in the pleats
  *              and implements refraction and reflection.
