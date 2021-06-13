@@ -4,7 +4,7 @@ Displays Code and Video Links for OpenGL and Shaders Code
 
 ## The Breezy Meadow
 
-To view a video of the meadow see: https://media.oregonstate.edu/media/t/1_azchadwe
+![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/TheMeadow.gif)
 
 Made with OpenGL and shaders. A meadow with flowers, butterflies, and an apple tree is constructed from imported obj files. These objects are then manipulated in the vertex shader to perform the following motions:
 
@@ -18,9 +18,11 @@ Made with OpenGL and shaders. A meadow with flowers, butterflies, and an apple t
 
 Textures and coloring/lighting is handled in the fragment shader.
 
+To view a naratted video of the meadow see: https://media.oregonstate.edu/media/t/1_azchadwe
+
 ## In the Attic
 
-To view a video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
+![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/InTheAttic.gif)
 
 An introductory project where different types of light sources and textures on imported objects using OpenGL was implemented.
 
@@ -33,16 +35,11 @@ Lighting can be switched on/off using keyboard keys:
 * t,T = turn off/on train light
 * r,R = turn off/on red spot lights
 
-## Bump and Cube Mapping, Refraction and Reflection Using Shaders
-
-To view a video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
-
-1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
-1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
 
 ## Up and Away
 
-To view a video of the project, see:  https://media.oregonstate.edu/media/t/1_vu4ov7lk
+![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/UpAndAway.gif)
 
 A striped balloon obj file is imported and manipulated in the vertex and fragment shaders as follows:
 
@@ -55,9 +52,18 @@ Keyboard commands include:
 * v = animate vertices - deform the shape of the balloon 
 * f = animate fragments - animate the spiral 
 
+To view a naratted video of the project, see:  https://media.oregonstate.edu/media/t/1_vu4ov7lk
+
+## Bump and Cube Mapping, Refraction and Reflection Using Shaders
+
+To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
+
+1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
+1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+
 ## The Jellyfish
 
-To view a video of the jellyfish see:  https://media.oregonstate.edu/media/t/1_kknmgvdo
+To view a naratted video of the jellyfish see:  https://media.oregonstate.edu/media/t/1_kknmgvdo
 
 A jellyfish made up from Bezier curves that swims in the water using OpenGL.
 
