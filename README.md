@@ -18,14 +18,27 @@ Made with OpenGL and shaders. A meadow with flowers, butterflies, and an apple t
 
 Textures and coloring/lighting is handled in the fragment shader.
 
-## The Jellyfish
+## In the Attic
 
-To view a video of the jellyfish see:  https://media.oregonstate.edu/media/t/1_kknmgvdo
+To view a video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
 
-A jellyfish made up from Bezier curves that swims in the water using OpenGL.
+An introductory project where different types of light sources and textures on imported objects using OpenGL was implemented.
 
-The right-click menu can turn the curves or points on or off. 
-To freeze the animation use the keyboard "f" key.
+Lighting can be switched on/off using keyboard keys:
+
+* f,F = freeze/unfreeze motion
+* 1 = turn off/on ambient light in plus XZ sector
+* 2 = turn off/on ambient light in minus XZ sector
+* l,L = turn off/on lamp light
+* t,T = turn off/on train light
+* r,R = turn off/on red spot lights
+
+## Bump and Cube Mapping, Refraction and Reflection Using Shaders
+
+To view a video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
+
+1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
+1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
 
 ## Up and Away
 
@@ -42,25 +55,12 @@ Keyboard commands include:
 * v = animate vertices - deform the shape of the balloon 
 * f = animate fragments - animate the spiral 
 
-## Bump and Cube Mapping, Refraction and Reflection Using Shaders
+## The Jellyfish
 
-To view a video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
+To view a video of the jellyfish see:  https://media.oregonstate.edu/media/t/1_kknmgvdo
 
-1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
-1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+A jellyfish made up from Bezier curves that swims in the water using OpenGL.
 
-## In the Attic
-
-To view a video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
-
-An introductory project where different types of light sources and textures on imported objects using OpenGL was implemented.
-
-Lighting can be switched on/off using keyboard keys:
-
-* f,F = freeze/unfreeze motion
-* 1 = turn off/on ambient light in plus XZ sector
-* 2 = turn off/on ambient light in minus XZ sector
-* l,L = turn off/on lamp light
-* t,T = turn off/on train light
-* r,R = turn off/on red spot lights
+The right-click menu can turn the curves or points on or off. 
+To freeze the animation use the keyboard "f" key.
 
