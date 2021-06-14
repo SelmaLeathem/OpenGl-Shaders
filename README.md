@@ -37,6 +37,15 @@ Lighting can be switched on/off using keyboard keys:
 
 To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
 
+## Bump and Cube Mapping, Refraction and Reflection Using Shaders
+
+![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/TheMarket.gif)
+
+1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
+1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+
+To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
+
 ## Up and Away
 
 ![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/UpAndAway.gif)
@@ -53,13 +62,6 @@ Keyboard commands include:
 * f = animate fragments - animate the spiral 
 
 To view a naratted video of the project, see:  https://media.oregonstate.edu/media/t/1_vu4ov7lk
-
-## Bump and Cube Mapping, Refraction and Reflection Using Shaders
-
-To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
-
-1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
-1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
 
 ## The Jellyfish
 
