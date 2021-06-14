@@ -20,6 +20,15 @@ Textures and coloring/lighting is handled in the fragment shader.
 
 To view a naratted video of the meadow see: https://media.oregonstate.edu/media/t/1_azchadwe
 
+## Bump and Cube Mapping, Refraction and Reflection Using Shaders
+
+![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/TheMarket.gif)
+
+1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
+1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+
+To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
+
 ## In the Attic
 
 ![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/InTheAttic.gif)
@@ -36,15 +45,6 @@ Lighting can be switched on/off using keyboard keys:
 * r,R = turn off/on red spot lights
 
 To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
-
-## Bump and Cube Mapping, Refraction and Reflection Using Shaders
-
-![Demonstration](https://raw.githubusercontent.com/SelmaLeathem/OpenGl-Shaders/main/TheMarket.gif)
-
-1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
-1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
-
-To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
 
 ## Up and Away
 
