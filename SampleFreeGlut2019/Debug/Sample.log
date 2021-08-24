@@ -1,0 +1,6 @@
+﻿  sample.cpp
+C:\Users\Owner\Documents\CS 450\Sample2019\SampleFreeGlut2019\sample.cpp(796,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Owner\Documents\CS 450\Sample2019\SampleFreeGlut2019\sample.cpp(798,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Owner\Documents\CS 450\Sample2019\SampleFreeGlut2019\sample.cpp(800,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+sample.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Users\Owner\Documents\CS 450\Sample2019\SampleFreeGlut2019\Debug\Sample.exe

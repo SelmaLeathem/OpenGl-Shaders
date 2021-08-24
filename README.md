@@ -18,6 +18,15 @@ Made with OpenGL and shaders. A meadow with flowers, butterflies, and an apple t
 
 Textures and coloring/lighting is handled in the fragment shader.
 
+To Run Files:
+
+1. Place in *SampleFreeGlut2019* folder.
+1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the inserted project header (.h) files.
+1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files.
+1. In *Visual Studio* select *Build->Build Solution*
+1. In *Visual Studio* select *Debug->Start Without Debugging*
+
 To view a naratted video of the meadow see: https://media.oregonstate.edu/media/t/1_azchadwe
 
 ## Bump and Cube Mapping, Refraction and Reflection Using Shaders
@@ -26,6 +35,12 @@ To view a naratted video of the meadow see: https://media.oregonstate.edu/media/
 
 1. In the vertex shader a quadrilateral is bent such as to create curtain pleats.
 1. The fragment shader file implements the bump-mapped quasi-random creases and crevices in the pleats. In addition, the fragment shader calculates the reflection and refraction of the deformed and map-bumped quadrilateral with the surrounding cube-mapped walls.
+
+To Run Files:
+
+1. Double Click *glman.exe*
+1. Select *Load a new GLIB File*
+1. Select *pleatscube.glib*
 
 To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_zh6v7m9t
 
@@ -44,6 +59,16 @@ Lighting can be switched on/off using keyboard keys:
 * t,T = turn off/on train light
 * r,R = turn off/on red spot lights
 
+To Run Files:
+
+1. Unzip folders
+1. Place in *SampleFreeGlut2019* folder.
+1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the inserted project header (.h) files.
+1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files.
+1. In *Visual Studio* select *Build->Build Solution*
+1. In *Visual Studio* select *Debug->Start Without Debugging*
+
 To view a naratted video of the project, see: https://media.oregonstate.edu/media/t/1_0206r23x
 
 ## Up and Away
@@ -60,6 +85,13 @@ Keyboard commands include:
 * s = stop all animation
 * v = animate vertices - deform the shape of the balloon 
 * f = animate fragments - animate the spiral 
+
+1. Place in *SampleFreeGlut2019* folder.
+1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the inserted project header (.h) files.
+1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files.
+1. In *Visual Studio* select *Build->Build Solution*
+1. In *Visual Studio* select *Debug->Start Without Debugging*
 
 To view a naratted video of the project, see:  https://media.oregonstate.edu/media/t/1_vu4ov7lk
 

@@ -1,0 +1,6 @@
+C:\MJB\CS550\SampleFreeGlut2019\Debug\Sample.exe
+C:\MJB\CS550\SampleFreeGlut2019\Debug\Sample.pdb
+C:\Users\selma\Documents\CS 450 ASK ABOUT DGX- add VS Key\Sample2019\SampleFreeGlut2019\Debug\Sample.exe
+C:\Users\selma\Documents\CS 450 ASK ABOUT DGX- add VS Key\Sample2019\SampleFreeGlut2019\Debug\Sample.pdb
+C:\Users\Owner\Documents\CS 450\Sample2019\SampleFreeGlut2019\Debug\Sample.exe
+C:\Users\Owner\Documents\CS 450\Sample2019\SampleFreeGlut2019\Debug\Sample.pdb
