@@ -20,9 +20,9 @@ Textures and coloring/lighting is handled in the fragment shader.
 
 To Run Files:
 
-1. Place in *SampleFreeGlut2019* folder.
+1. Place files and folders in *SampleFreeGlut2019* folder.
 1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
-1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the inserted project header (.h) files.
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the project header (.h) files that were inserted.
 1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files.
 1. In *Visual Studio* select *Build->Build Solution*
 1. In *Visual Studio* select *Debug->Start Without Debugging*
@@ -62,9 +62,9 @@ Lighting can be switched on/off using keyboard keys:
 To Run Files:
 
 1. Unzip folders
-1. Place in *SampleFreeGlut2019* folder.
+1. Place files and folders in *SampleFreeGlut2019* folder.
 1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
-1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the inserted project header (.h) files.
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the project header (.h) files that were inserted.
 1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files.
 1. In *Visual Studio* select *Build->Build Solution*
 1. In *Visual Studio* select *Debug->Start Without Debugging*
@@ -86,9 +86,9 @@ Keyboard commands include:
 * v = animate vertices - deform the shape of the balloon 
 * f = animate fragments - animate the spiral 
 
-1. Place in *SampleFreeGlut2019* folder.
+1. Place files and folders in *SampleFreeGlut2019* folder.
 1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
-1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the inserted project header (.h) files.
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the project header (.h) files that were inserted.
 1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files.
 1. In *Visual Studio* select *Build->Build Solution*
 1. In *Visual Studio* select *Debug->Start Without Debugging*
