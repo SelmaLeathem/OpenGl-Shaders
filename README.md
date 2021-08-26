@@ -104,3 +104,12 @@ A jellyfish made up from Bezier curves that swims in the water using OpenGL.
 The right-click menu can turn the curves or points on or off. 
 To freeze the animation use the keyboard "f" key.
 
+To Run Files:
+
+1. Place files and folders in *SampleFreeGlut2019* folder.
+1. Right-click on *Sample.sln* and select to run in *Visual Studio 2019*
+1. In *Solution Explorer* in *Visual Studio* right-click *Header Files*, select *add->existing item*, then select only the project header (.h) files that were inserted from step 1.
+1. In *Solution Explorer* in *Visual Studio* right-click *Source Files*, select *add->existing item*, then select all inserted .cpp files from step 1.
+1. In *Visual Studio* select *Build->Build Solution*
+1. In *Visual Studio* select *Debug->Start Without Debugging*
+
